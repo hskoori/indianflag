@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 0;
+    min-height: 100vh;
+}
+#flag{
+    width: 450px;
+    height: 300px;
+}
+#flag .top{
+    height: 33.33%;
+    background-color: #FF9933;
+}
+#flag .center{
+    height: 33.33%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flag .center .chakra{
+    width: 90px;
+    height: 90px;
+    border: 3.5px solid #000080;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#flag .center .chakra .center-dot{
+    width: 10px;
+    height: 10px;
+    display: block;
+    background-color: #000080;
+    border-radius: 50%;
+}
+#flag .center .chakra .line{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+#flag .center .chakra .line.line2{
+    transform: rotate(15deg);
+}
+#flag .center .chakra .line.line3{
+    transform: rotate(30deg);
+}
+#flag .center .chakra .line.line4{
+    transform: rotate(45deg);
+}
+#flag .center .chakra .line.line5{
+    transform: rotate(60deg);
+}
+#flag .center .chakra .line.line6{
+    transform: rotate(75deg);
+}
+#flag .center .chakra .line.line7{
+    transform: rotate(90deg);
+}
+#flag .center .chakra .line.line8{
+    transform: rotate(105deg);
+}
+#flag .center .chakra .line.line9{
+    transform: rotate(120deg);
+}
+#flag .center .chakra .line.line10{
+    transform: rotate(135deg);
+}
+#flag .center .chakra .line.line11{
+    transform: rotate(150deg);
+}
+#flag .center .chakra .line.line12{
+    transform: rotate(165deg);
+}
+
+#flag .center .chakra .line span{
+    display: block;
+    background-color: #000080;
+    height: 14px;
+    width: 45%;
+}
+#flag .center .chakra .line span.left{
+    clip-path: polygon(70% 40%, 100% 50%, 70% 60%, 0 50%);
+}
+#flag .center .chakra .line span.right{
+    clip-path: polygon(30% 40%, 100% 50%, 30% 60%, 0 50%);
+}
+#flag .center .chakra .line .border-dot{
+    display: block;
+    background-color: #000080;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+   position: absolute; 
+}
+#flag .center .chakra .line .border-dot.left-dot{
+    top:-2px;
+    left: -3px;
+}
+#flag .center .chakra .line .border-dot.right-dot{
+    bottom:-2px;
+    right: -3px;
+}
+
+#flag .bottom{
+    height: 33.33%;
+    background-color: #138808;
+}
+
+h1{
+    color: #000080;
+    margin-top:30px;
+    margin-bottom:14px;
+
+}
+h2{
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 span{
+    color: #2196f3;
+
+}
